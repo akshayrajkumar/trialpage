@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>HVC FAQ</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="main.css">
+    <script src="slider.js"></script>
+    
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/" class="navbar-brand">Phillips 66</a>
+    </div>
+<!--
+    <nav class="collapse navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+        <li>
+          <a href="#sec">Get Started</a>
+        </li>
+        <li>
+          <a href="#sec">Edit</a>
+        </li>
+        <li>
+          <a href="#sec">Visualize</a>
+        </li>
+        <li>
+          <a href="#sec">Prototype</a>
+        </li>
+      </ul>
+    </nav>
+-->
+  </div>
+</nav>
+
+
+<!--main-->
+<div class="container" >
+	<div class="row" style="margin-top: 75px;">
+      <!--left-->
+        
+        
+<!--
+      <div class="col-md-3" id="leftCol">
+        <ul class="nav nav-stacked" id="sidebar">
+          <li><a href="#sec0">Section 0</a></li>
+          <li><a href="#sec1">Section 1</a></li>
+          <li><a href="#sec2">Section 2</a></li>
+          <li><a href="#sec3">Section 3</a></li>
+          <li><a href="#sec4">Section 4</a></li>
+        </ul>
+      </div>
+        
+-->
+        
+            <nav class="col-sm-3" id="myScrollspy">
+      <ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="205">
+        <li><a href="#section1">About HVC </a></li>   
+        <li class="dropdown">
+        <a  onclick="show()">Custom Module <span class="caret"></span></a>  
+        <div id="showque">
+        <a href="#">Question 1</a><br><br>
+        <a href="#">Question 2</a><br><br>
+        <a href="#">Question 3</a><br><br>
+        <a href="#">Question 4</a><br><br>
+        <a href="#">Question 5</a><br><br>
+        <a href="#">Question 6</a><br><br>
+        </div>
+        </li>
+          <script>
+function show() {
+  var x = document.getElementById("showque");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+          
+      </ul>
+    </nav>
+        
+        <!--/left-->
+      
+      <!--right-->
+      <div class="col-md-9">
+        <h2 id="sec0">Content</h2>
+        <p>
+          At Bootply we like to build simple Bootstrap templates that utilize the code Bootstap CSS without a lot of customization. Sure you can 
+          find a lot of Bootstrap themes and inspiration, but these templates tend to be heavy on customization.</p>
+        
+        <hr>
+        <p>
+          Rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
+          dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores 
+          eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
+          sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
+          Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut.              
+          Rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
+          dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores 
+          eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
+          sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
+          Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut!</p>
+        
+        <h2 id="sec1">Content</h2>
+        <p>
+          Rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
+          dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut.
+        </p>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="panel panel-default">
+              <div class="panel-heading"><h3>Hello.</h3></div>
+              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
+                Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
+                dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
+                Aliquam in felis sit amet augue.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="panel panel-default">
+              <div class="panel-heading"><h3>Hello.</h3></div>
+              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
+                Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
+                dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
+                Aliquam in felis sit amet augue.
+              </div>
+            </div>
+          </div>  
+        </div>
+        
+        <hr>
+        
+        <h2 id="sec2">Section 2</h2>
+        <p>
+          Rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
+          dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores 
+          eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
+          sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
+          Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut!
+        </p>
+        <div class="row">
+          <div class="col-md-4"><img src="//placehold.it/300x300" class="img-responsive"></div>
+          <div class="col-md-4"><img src="//placehold.it/300x300" class="img-responsive"></div>
+          <div class="col-md-4"><img src="//placehold.it/300x300" class="img-responsive"></div>
+        </div>
+        
+        <hr>
+        
+        <h2 id="sec3">Section 3</h2>
+        <p>
+          Images are responsive sed @mdo but sum are more fun peratis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+          totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
+          dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores 
+          eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
+          sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
+          Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut..</p>
+        <p>
+          Fos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
+          sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
+          Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut..</p>
+        
+        
+        <h2 id="sec4">Section 4</h2>
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+          totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
+          dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores 
+          eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
+          sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
+          Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut.</p>
+        
+        <hr>
+        <h4><a href="http://www.bootply.com/Gygh9swISB">Edit on Bootply</a></h4>
+        <hr>
+
+        </div><!--/right-->
+  	</div><!--/row-->
+</div><!--/container-->
+</body>
